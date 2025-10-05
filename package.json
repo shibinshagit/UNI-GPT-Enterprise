@@ -1,0 +1,38 @@
+{
+  "name": "uni-gpt",
+  "version": "1.0.0",
+  "description": "🎙️ Professional voice-powered AI assistant for UniQube bathroom pods and kitchens. Built with OpenAI GPT-4o-mini and Web Speech API.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shibinshagit/UNI-GPT.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shibinshagit/UNI-GPT/issues"
+  },
+  "homepage": "https://github.com/shibinshagit/UNI-GPT#readme",
+  "dependencies": {
+    "@types/node": "^24.6.2",
+    "@types/react": "^19.2.0",
+    "@types/react-dom": "^19.2.0",
+    "next": "^15.5.4",
+    "openai": "^6.1.0",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "typescript": "^5.9.3"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^3.4.18"
+  }
+}
