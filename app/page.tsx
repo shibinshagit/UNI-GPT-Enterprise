@@ -283,16 +283,12 @@ export default function Home() {
               onClick={clearConversation}
               className="px-6 py-2 bg-red-500 hover:bg-red-600 text-white rounded-lg transition-colors"
             >
-              Clear Conversation
+              Clear
             </button>
           </div>
         </div>
 
-        {/* Footer Info */}
-        <div className="mt-6 text-center text-gray-500 text-sm">
-          <p>Powered by OpenAI GPT-4o-mini • Built for UniQube</p>
-          <p className="mt-1">Use Chrome or Edge for best experience</p>
-        </div>
+    
       </div>
     </main>
   );
