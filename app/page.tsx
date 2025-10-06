@@ -247,7 +247,7 @@ export default function Home() {
           </div>
 
           {/* Conversation Display */}
-          <div className="bg-slate-900/50 rounded-xl p-6 max-h-96 overflow-y-auto border border-slate-700">
+          {/* <div className="bg-slate-900/50 rounded-xl p-6 max-h-96 overflow-y-auto border border-slate-700">
             {messages.length === 0 ? (
               <div className="text-center text-gray-400 italic py-8">
                 Welcome! I'm your Uni-GPT assistant. Click the microphone and speak to get started.
@@ -266,10 +266,10 @@ export default function Home() {
                 </div>
               ))
             )}
-          </div>
+          </div> */}
 
           {/* Controls */}
-          <div className="mt-6 flex gap-4 items-center justify-between">
+          {/* <div className="mt-6 flex gap-4 items-center justify-between">
             <label className="flex items-center gap-2 text-gray-300 cursor-pointer">
               <input
                 type="checkbox"
@@ -285,7 +285,7 @@ export default function Home() {
             >
               Clear
             </button>
-          </div>
+          </div> */}
         </div>
 
     
